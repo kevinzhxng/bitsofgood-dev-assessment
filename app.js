@@ -4,7 +4,7 @@ import cors from 'cors';
 
 dotenv.config();
 const app = express();
-const APP_PORT = 5000;
+const APP_PORT = 3000;
 app.use(cors({ origin: true }));
 
 app.get('/', (req, res) => {
